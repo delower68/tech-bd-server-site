@@ -1,0 +1,56 @@
+[
+  {
+    "service_no": "01",
+    "name": "Langkawi Island - Land Of Azure Waters",
+    "price": 399 ,
+    "rating": "4.5",
+    "total_review": 4099,
+    "description": "A beautiful archipelago, Langkawi Island is a destination known for its vast expanse of sandy beaches and azure blue water which enthrall the tourists. The Langkawi Geopark is a UNESCO heritage site that attracts a large number of visitors and is, undoubtedly, the top among the must visit places in Malaysia. It is a perfect manifestation of the geological heritage in the area. It is one of the best places to visit in Malaysia with family.Major Attractions: Famous Cable Car that is popular among kids, as well as, adults. Entry Fee: INR 15  INR 20 per head for a one hour island tour Tip: This beach is a must visit for total relaxation rejuvenation and sightseeing in Malaysia ",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTquUL_aMfRO5UKyo85R1oBR5TPyqXRwLzCpQ&usqp=CAU"
+  },
+  {
+    "service_no": "02",
+    "name": "Kinabatangan - Home To Exotic Wild",
+    "price": 499 ,
+    "rating": "4.6",
+    "total_review": 5542,
+    "description": "Located to the east of Sabah, Kinabatangan is known for its rainforest remains. Its wildlife sanctuary attracts a large number of wildlife lovers at this tourist attraction is Malaysia. Among the most romantic places to visit in Malaysia, this one tops the list. Location: Northeastern Borneo, Malaysia Major Attractions: Visit the Jungle Camp to enjoy wildlife in its unhindered natural habitat.Entry Fee: INR 6000 per person (Minimum 2 adults) for 2 days, 1 night trip to the Kinabatangan Jungle Camp Tip: Enjoy an early morning cruise to watch out rich wildlife ",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTG0Mst77SYHtp356egONRvLl3aNUo4YOy2A&usqp=CAU"
+  },
+  {
+    "service_no": "03",
+    "name": "Mount Kinabalu - Hiker's Paradise",
+    "price": 599 ,
+    "rating":"4.5",
+    "total_review": 4589,
+    "description": " The tallest mountain of Borneo, Mount Kinabalu is a striking sight to behold. Hikers love to enjoy impressive trails that allow a glimpse of the picturesque surroundings of the region. Quite popular among people with adventurous bones, it is one of the best Malaysia visiting place to have a thrill oozing experience. Among the good places to visit in Malaysia this one tops the list.Location: West Coast Division, Sabah, Malaysia Major Attractions: Zip line to experience the rush that comes with high velocity Entry Fee: No Entry Fee Tip: Enjoy amazing sights and thrilling activities at this tourist place in Malaysia. ",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGs4U7RkkZOox08D2Umqg0hpkhUiT29PB8BQ&usqp=CAU"
+  },
+  {
+    "service_no": "04",
+    "name": "Melaka - The City Of Ancient Architecture",
+    "price": 399 ,
+    "rating": "4.7",
+    "total_review": 4580,
+    "description": "In 2008, Maleka attained the Unesco Heritage Site status and is considered among the must see places in Malaysia, since then. Melaka, located 2 hours away from Kuala Lumpur, is one of the most famous trading ports of Southeast Asia. Its ancient architecture speaks volumes about its erstwhile grandeur. Housing some of the best Malaysia tourist attractions, the city is not to be missed. Tripping with family? Don’t forget to visit classic places in Melaka for kids like the Nyonya Heritage Museum. Major Attractions: Visit Baba and Nyonya Heritage Museum if you are a history buff to know more about Malays-Chinese local history. Entry Fee: INR 130 – INR 150 for adults (Baba and Nyonya Heritage Museum) Tip: Enjoy local delicacies at Melaka, a famous tourist place in Malaysia. ",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoX2hlPPSE01vq0_vNUKnDsTMIgkfqc75vA&usqp=CAU"
+  },
+  {
+    "service_no": "05",
+    "name": "Cameron Highlands - Nature At Its Best ",
+    "price": 599 ,
+    "rating": "4.6",
+    "total_review": 5580,
+    "description": "If you want to be at the hills in Malaysia then Cameron Highlands is the place for you. One of the oldest tourist spots in Malaysia, this hill station was established in the 1930s and is now inhabited by a group of people who are very diverse and have their impact on the culture too. Mesmerising tea estates, great weather, cascading waterfalls, strawberry farms and pretty orchards make reasons enough for you to visit this place. Location: Pahang, Malaysia Major Attractions: Tea estates, strawberry farms and gushing waterfalls are the prime reasons for you to visit the place. Entry Fee: INR 350 – INR 400 Tip: Don’t miss out on the beautiful orchards and strawberry farms.",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQZF4v8bYWoFaqKQDUj1bykmE3A-WKIE56tg&usqp=CAU"
+  },
+  {
+    "service_no": "06",
+    "name": "Alor Setar – The Rice Bowl Of Malaysia ",
+    "price": 499 ,
+    "rating": "4.7",
+    "total_review": 5680,
+    "description": "Alor Setar is among the most important places to see in Malaysia owing to the fact that it’s the ‘rice bowl of Malaysia’. This capital of Kedah State is full of paddy fields as well as delightful rolling hills that are a treat to the eyes! The city exhibits the typical Malay culture and is home to some interesting galleries, lovely architecture, and pretty beaches that brings people here from near and far. It is located very near to the stunning Pulau Langkawi beach which provides as a great place for a day trip from this city. Location: Kota Setar, Malaysia Major Attractions: Art galleries, beaches, paddy fields",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9VV-MqQKJ7KLCeLrNgOuz8P_YRCPCiWD3PA&usqp=CAU"
+  }
+]
