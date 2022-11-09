@@ -1,4 +1,4 @@
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -16,24 +16,71 @@ app.use(cors());
 app.use(express.json());
 
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.wdnu49k.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.nhwinnf.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-console.log(uri);
+
+async function run(){
+    try{
+        const serviceCollection = client.db('techBD').collection('services');
+        const reviewsCollection = client.db('techBD').collection('reviews');
 
 
-const services = require('./data/services.json')
+        // all data loaded from mongodb to local server 
+        app.get('/services',async(req, res)=>{
+            const query ={};
+            const cursor =  serviceCollection.find(query)
+            const services = await cursor.toArray();
+            res.send(services);
+        } )
+        // for home page data 
+        app.get('/',async(req, res)=>{
+            const query ={};
+            const cursor =  serviceCollection.find(query)
+            const services = await cursor.toArray();
+            res.send(services);
+        } )
+
+        // load a single data from mangodb 
+        app.get('/services/:id' , async(req, res)=>{
+            const id = req.params.id;
+            const query = {_id: ObjectId(id)}
+            const service = await serviceCollection.findOne(query)
+            res.send(service);
+        });
+
+        // user review data 
+        app.post('/reviews', async(req, res)=>{
+            const review = req.body ;
+            const result = await reviewsCollection.insertOne(review);
+            res.send(result) 
+        })
+
+        // reviews api receide here 
+        // app.get('/reviews', async(req, res)=>{
+        //     let query = {};
+        //     if(req.query.email){
+        //         query={
+        //             email: req.query.email 
+        //         }
+        //     }
+        //     const cursor = reviewsCollection.find(query);
+        //     const reviews = await cursor.toArray();
+        //     res.send(reviews)
+        // })
+
+
+
+    }
+    finally{
+
+    }
+}
+run().catch(err => console.error(err))
+
 
 app.get('/', (req ,res)=>{
     res.send('The server is running');
 });
-
-
-// get the all services here 
-app.get('/services', (req, res)=>{
-    res.send(services);
-})
-
-
 
 
 
