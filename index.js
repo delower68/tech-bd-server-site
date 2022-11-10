@@ -35,7 +35,7 @@ async function run(){
         // for home page data 
         app.get('/',async(req, res)=>{
             const query ={};
-            const cursor =  serviceCollection.find(query)
+            const cursor =  serviceCollection.find(query).limit(3)
             const services = await cursor.toArray();
             res.send(services);
         } )
@@ -46,6 +46,16 @@ async function run(){
             const query = {_id: ObjectId(id)}
             const service = await serviceCollection.findOne(query)
             res.send(service);
+        });
+        app.get('/reviews/:id' , async(req, res)=>{
+            let query = {};
+            if(req.query.
+                service){
+                query= req.query.service;
+            }
+            const cursor = reviewsCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews);
         });
 
         // user review data 
